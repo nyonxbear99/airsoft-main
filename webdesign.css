@@ -5,7 +5,7 @@ a:link {
 }
 
 a:visited {
-  color: rgb(249, 42, 42);
+  color: rgb(149, 134, 134);
   background-color: transparent;
   text-decoration: none;
 }
@@ -22,9 +22,10 @@ a:active {
   text-decoration: underline;
 }
 
+
 body {
    background-image: url(./TOLIK_NEW_21\ \(550\).jpg);
-  color: white;
+  color: rgb(255, 255, 255);
 }
 
 footer {
@@ -72,6 +73,10 @@ p2{
   padding: 2px;
   width: 3px;
   height: px;
+}
+.about{
+  text-decoration-line: underline;
+  text-decoration-style: double;
 }
 
 /* nav {
@@ -147,4 +152,31 @@ nav ul li a {
   color: white;
   list-style: none;
   text-decoration: none;
+}
+#borderimg1 {
+  border: 10px solid transparent;
+  padding: 15px;
+  border-image: url(/_00_ELL_6474\ \(183\).JPG) 30 round;
+}
+#borderimg2 {
+  border: 10px solid transparent;
+  padding: 15px;
+  border-image: url() 30 stretch;
+}
+.heading {
+  width: 100px;
+  height: 50px;
+  background: transparent;
+  position: relative;
+  animation: mymove 8s infinite;
+}
+
+@keyframes mymove {
+  from {
+    left: 0px;
+  }
+
+  to {
+    left: 200px;
+  }
 }
