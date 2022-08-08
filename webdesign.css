@@ -24,7 +24,7 @@ a:active {
 
 
 body {
-   background-image: url(./TOLIK_NEW_21\ \(550\).jpg);
+  background-image: url(./TOLIK_NEW_21\ \(550\).jpg);
   color: rgb(255, 255, 255);
 }
 
@@ -37,6 +37,7 @@ footer {
   text-align: center;
   max-height: 22vh;
 }
+
 footer div {
   display: inline-block;
   align-items: center;
@@ -47,14 +48,18 @@ header {
   padding-top: 0.06px;
   font-style: italic;
 }
+
+
 * {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
 }
+
 p {
   font-size: 80px;
 }
+
 
 p {
   border-radius: 25px;
@@ -63,18 +68,24 @@ p {
   width: 300px;
   height: 100px;
 }
-p2{
+p {
+  border-style: solid;
+  border-bottom-style: dotted;
+}
+
+p2 {
   font-size: 60px;
 }
 
-p2{
+p2 {
   border-radius: 25px;
   background: #D3D3D3;
   padding: 2px;
   width: 3px;
   height: px;
 }
-.about{
+
+.about {
   text-decoration-line: underline;
   text-decoration-style: double;
 }
@@ -94,20 +105,24 @@ nav {
   background-color: black;
   opacity: 70%;
 }
+
 .nav-links {
   display: flex;
   justify-content: space-around;
   width: 60%;
 }
+
 .nav-links li {
   list-style: none;
 }
+
 .heading {
   color: white;
   text-transform: uppercase;
   letter-spacing: 0px;
   font-size: 20px;
 }
+
 .nav-links {
   color: white;
   text-decoration: none;
@@ -116,15 +131,19 @@ nav {
   font-size: 18px;
   padding: 14px 16px;
 }
+
 .nav-links li a:hover:not(.active) {
   background-color: transparent;
 }
+
 .nav-links li a.active {
   background-color: transparent;
 }
+
 nav ul li a {
   color: white;
 }
+
 .footer {
   position: fixed;
   left: 0%;
@@ -145,24 +164,29 @@ nav ul li a {
   background-color: black;
   opacity: 70%;
 }
+
 .footer li a {
   color: white;
 }
+
 .footer ul li a {
   color: white;
   list-style: none;
   text-decoration: none;
 }
+
 #borderimg1 {
   border: 10px solid transparent;
   padding: 15px;
   border-image: url(/_00_ELL_6474\ \(183\).JPG) 30 round;
 }
+
 #borderimg2 {
   border: 10px solid transparent;
   padding: 15px;
   border-image: url() 30 stretch;
 }
+
 .heading {
   width: 100px;
   height: 50px;
